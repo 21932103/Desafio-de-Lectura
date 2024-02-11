@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.text-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.title-image{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.subtitle-image{
+    font-size: 1.5em;
+}
+
+.color-section{
+    background-color: bisque;
+}
+
